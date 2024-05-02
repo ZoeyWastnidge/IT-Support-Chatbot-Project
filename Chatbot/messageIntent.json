@@ -1,0 +1,74 @@
+{
+    "messageIntent": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good afternoon", "Good evening", "Good day", "Greetings", "How are you"],
+            "responses": ["Hello there, how can I help you?", "Hi there, how can I help you?", "Hello there, may I be of assistance?"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye"],
+            "responses": ["See you later, I hope I was of assistance.", "Bye! I hope I was able to help with your query.", "Goodbye, have a nice day!"]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "You were helpful", "Thanks a lot"],
+            "responses": ["I'm more than happy to help!", "Any time!", "It's my pleasure!"]
+        },
+        {
+            "tag": "login",
+            "patterns": ["I can't login", "My password doesn't work", "My username doesn't work", "I've run out of login attempts", "My password has reset", "I cant login", "My password doesnt work", "My username doesnt work"],
+            "responses": ["Providing you have internet connection, your password may have reset or you may have forgotten it. If you would like to reset your password, please go to the login page and click the 'forgotten password' hyperlink. If you require further assistance, call -support number- or visit our website for a live chat with a technician."]
+        },
+        {
+            "tag": "bluescreen",
+            "patterns": ["My PC bluescreened", "Blue screen of death", "BSOD", "My computer bluescreened", "My computer had an error and the screen went blue"],
+            "responses": ["Your computer may already have restarted, but if it has not then please attempt to restart it with the power button. If this issue persists, please log a case and move to another machine if possible, and let us know if you installed any drivers or external hardware before this issue."]
+        },
+        {
+            "tag": "important",
+            "patterns": ["I deleted an important file", "I accidentally deleted something I need", "I deleted something important"],
+            "responses": ["Don't panic! Check your recycle bin first, failing that search for the file with the search bar. If you're certain it's lost, log a case with us and we will be able to assist in recovery."]
+        },
+        {
+            "tag": "closed",
+            "patterns": ["I closed my document without saving", "I forgot to save my document", "My work didn't save", "My document didn't save"],
+            "responses": ["If your work is in Office, these programs have an AutoRecover feature that should give you an autosaved version of your work. Many other programs have a feature similar to this."]
+        },
+        {
+            "tag": "slow",
+            "patterns": ["My computer is running slowly", "My PC is slow", "My PC is running slowly", "Programs are loading slowly", "pc lag", "computer lag", "why computer slow", "why is my computer slow"],
+            "responses": ["Firstly, try closing any unused programs and browser tabs. Check that no software updates are occurring, and then check the space on your local disk. Failing these steps, open a case - and do not enter any personal information if you believe there is a chance your machine is compromised."]
+        },
+        {
+            "tag": "unexpected",
+            "patterns": ["My PC shut down unexpectedly", "My computer shut down unexpectedly", "My computer shut down out of nowhere", "My PC shut down out of nowhere", "PC turned off unexpectedly", "PC crashed", "Computer crashed"],
+            "responses": ["If it isn't turning back on, open a case. If it is, check for a lot of dust in the fan, as it may have overheated. In case of viruses, I would advise opening a case regardless if it was a random shutdown with nothing to do with things like the power connection or a necessary restart."]
+        },
+        {
+            "tag": "printing",
+            "patterns": ["I can't print anything", "I can't print", "I cant print anything", "I cant print", "printer not working", "printer is not working"],
+            "responses": ["Ensure you have the correct printer selected and that it is turned on and has the right amount of paper, ink and toner. If these are fine, it may be a connection issue - log a case and we will ensure your PC is on the correct group."]
+        },
+        {
+            "tag": "internet",
+            "patterns": ["My internet is slow", "Websites are loading slowly", "It's difficult to connect to the internet", "slow internet", "its difficult to connect to the internet"],
+            "responses": ["Downloads may be affecting your speed, but if you are in office log a case."]
+        },
+        {
+            "tag": "usb",
+            "patterns": ["My USB won't connect", "My USB isn't appearing", "My USB isn't connecting", "My USB wont connect", "My USB isnt connecting", "my usb isnt connecting"],
+            "responses": ["Try connecting to a different USB port, then check to see if the device works with another machine before replacing it."]
+        },
+        {
+            "tag": "sound",
+            "patterns": ["Windows sound is not working", "No sound is coming from my computer", "No sound from the speakers", "No sound", "No volume"],
+            "responses": ["Ensure your speakers are on and connected. Then, right click the sound symbol and open the settings and check/test your audio devices. Check your audio drivers. You can also use the search bar to find the audio troubleshooter."]
+        },
+        {
+            "tag": "monitor",
+            "patterns": ["My monitor is flickering", "My monitor keeps turning off", "My screen keeps turning off", "screen turned off", "monitor turned off"],
+            "responses": ["Check the power connection to the monitor, then use the buttons (usually on the bottom) and make sure it isn't on power saving or eco mode."]
+        }
+    ]
+}
